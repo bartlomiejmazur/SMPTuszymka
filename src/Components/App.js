@@ -2,6 +2,7 @@ import React, {useState, useLayoutEffect} from 'react';
 import { BrowserRouter as Router} from 'react-router-dom';
 
 import '../style/App.css';
+import Home from './Home';
 import Loader from './Loader';
 
 import Navigation from './Navigation';
@@ -28,7 +29,9 @@ const [loading, setLoading] = useState(false);
   return ( 
     <>
     {loading ? <Loader/> :
+    
     <Router>
+    <Home/>
     <div className="app">
       <nav>
       <Navigation/>
