@@ -1,0 +1,114 @@
+.club{
+position: relative;
+
+}
+
+.club__overlay{
+position: absolute;
+background: rgba(0, 0, 0, 0.803);
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+
+}
+.club__title{
+position: absolute;
+color: white;
+font-size: 36px;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+top:30%;
+left:50%;
+transform: translateX(-50%);
+ }
+ @media (min-width: 460px) and (orientation: portrait){
+    .club__title{font-size: 46px;}
+}
+@media (min-width: 640px) and (orientation: portrait){
+    .club__title{font-size: 66px;}
+}
+@media (min-width: 800px) and (orientation: portrait){
+    .club__title{font-size: 86px;}
+}
+@media (min-width: 1024px){
+    .club__title{font-size: 96px;}
+}
+@media (min-width: 1619px){
+    .club__title{font-size: 100px;}
+}
+ .club__baner-img{
+width: 100%;
+height: 100vh;
+}
+.container__info{
+width: 100%;
+/* height: 200vh; */
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+background-color: rgba(0, 0, 0, 0.503);
+align-items: center;
+/* text-align: center; */
+padding-top: 30px;
+color: white;
+}
+@media (min-width: 1024px){
+    .container__info{
+        flex-direction: row;
+        height: 70vh;
+    }
+}
+
+@media (min-width: 1619px){
+    .container__info{
+        flex-direction: row;
+        height: 70vh;
+    }
+}
+
+
+.container__info-group{
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+@media (min-width: 640px) and (orientation: portrait){
+    .container__info-group h4 {font-size: 50px;}
+    .container__info-group p {font-size: 30px;}
+}
+@media (min-width: 800px) and (orientation: portrait){
+    .container__info-group h4 {font-size: 80px;}
+    .container__info-group p {font-size: 40px;}
+}
+@media (min-width: 1024px){
+    .container__info-group{width: 25%; padding-bottom: 50px; }
+    .container__info-group h4 {font-size: 60px;}
+    .container__info-group p {font-size: 24px;}
+}
+@media (min-width: 1619px){
+    .container__info-group{width: 25%; padding-bottom: 50px; }
+    .container__info-group h4 {font-size: 70px;}
+    .container__info-group p {font-size: 30px;}
+}
+
+
+
+
+.container__info-group i{
+font-size: 70px;
+color: goldenrod
+}
+@media (min-width: 640px) and (orientation: portrait){
+    .container__info-group i{font-size: 130px;}
+    }
+@media (min-width: 800px) and (orientation: portrait){
+    .container__info-group i{font-size: 200px;}
+}
+@media (min-width: 1619px){
+    .container__info-group i{font-size: 120px;}
+}
+
