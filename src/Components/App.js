@@ -2,7 +2,7 @@ import React, {useState, useLayoutEffect} from 'react';
 import { BrowserRouter as Router} from 'react-router-dom';
 
 import '../style/App.css';
-import Home from './Home';
+// import Home from './Home';
 import Loader from './Loader';
 
 import Navigation from './Navigation';
@@ -21,12 +21,12 @@ const [loading, setLoading] = useState(false);
     setLoading(true);
     setTimeout(() => {
       setLoading(false)
-      return(<Home/>)
     }, 5000)
     
   
   },[])
 
+  
   return ( 
     <>
     {loading ? <Loader/> :
