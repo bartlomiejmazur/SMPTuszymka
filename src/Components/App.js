@@ -21,6 +21,7 @@ const [loading, setLoading] = useState(false);
     setLoading(true);
     setTimeout(() => {
       setLoading(false)
+      return(<Home/>)
     }, 5000)
     
   
@@ -31,7 +32,6 @@ const [loading, setLoading] = useState(false);
     {loading ? <Loader/> :
     
     <Router>
-    <Home/>
     <div className="app">
       <nav>
       <Navigation/>
@@ -39,7 +39,6 @@ const [loading, setLoading] = useState(false);
     <main>
     <Page/>
     </main>
-    
     </div>
     </Router>
     }
