@@ -2,7 +2,6 @@ import React, {useState, useLayoutEffect} from 'react';
 import { BrowserRouter as Router} from 'react-router-dom';
 
 import '../style/App.css';
-// import Home from './Home';
 import Loader from './Loader';
 
 import Navigation from './Navigation';
