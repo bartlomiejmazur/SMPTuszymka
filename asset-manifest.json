@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SMPTuszymka/static/css/main.122dd6ea.css",
-    "main.js": "/SMPTuszymka/static/js/main.a97e50f2.js",
+    "main.js": "/SMPTuszymka/static/js/main.f7429cdb.js",
     "static/media/football-video.mp4": "/SMPTuszymka/static/media/football-video.daa5da6e685c2d4d08cc.mp4",
     "static/media/stadium_huge.jpg": "/SMPTuszymka/static/media/stadium_huge.ded2e6a69f286e77b574.jpg",
     "static/media/contact_medium.jpg": "/SMPTuszymka/static/media/contact_medium.f55fff89b978408a62a4.jpg",
@@ -19,10 +19,10 @@
     "static/media/contact.jpg": "/SMPTuszymka/static/media/contact.8c87bb1f5ad4aabd8e95.jpg",
     "index.html": "/SMPTuszymka/index.html",
     "main.122dd6ea.css.map": "/SMPTuszymka/static/css/main.122dd6ea.css.map",
-    "main.a97e50f2.js.map": "/SMPTuszymka/static/js/main.a97e50f2.js.map"
+    "main.f7429cdb.js.map": "/SMPTuszymka/static/js/main.f7429cdb.js.map"
   },
   "entrypoints": [
     "static/css/main.122dd6ea.css",
-    "static/js/main.a97e50f2.js"
+    "static/js/main.f7429cdb.js"
   ]
 }
