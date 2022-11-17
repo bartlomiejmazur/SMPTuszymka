@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SMPTuszymka/static/css/main.122dd6ea.css",
-    "main.js": "/SMPTuszymka/static/js/main.bcce97b8.js",
+    "main.css": "/SMPTuszymka/static/css/main.cdb041e3.css",
+    "main.js": "/SMPTuszymka/static/js/main.287e4b87.js",
     "static/media/football-video.mp4": "/SMPTuszymka/static/media/football-video.072fa7a50f167c4cf1e0.mp4",
     "static/media/stadium_huge.jpg": "/SMPTuszymka/static/media/stadium_huge.ded2e6a69f286e77b574.jpg",
     "static/media/contact_medium.jpg": "/SMPTuszymka/static/media/contact_medium.f55fff89b978408a62a4.jpg",
@@ -18,11 +18,11 @@
     "static/media/stadium_small.jpg": "/SMPTuszymka/static/media/stadium_small.d46e0b3d6a4c7f487770.jpg",
     "static/media/contact.jpg": "/SMPTuszymka/static/media/contact.8c87bb1f5ad4aabd8e95.jpg",
     "index.html": "/SMPTuszymka/index.html",
-    "main.122dd6ea.css.map": "/SMPTuszymka/static/css/main.122dd6ea.css.map",
-    "main.bcce97b8.js.map": "/SMPTuszymka/static/js/main.bcce97b8.js.map"
+    "main.cdb041e3.css.map": "/SMPTuszymka/static/css/main.cdb041e3.css.map",
+    "main.287e4b87.js.map": "/SMPTuszymka/static/js/main.287e4b87.js.map"
   },
   "entrypoints": [
-    "static/css/main.122dd6ea.css",
-    "static/js/main.bcce97b8.js"
+    "static/css/main.cdb041e3.css",
+    "static/js/main.287e4b87.js"
   ]
 }
