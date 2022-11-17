@@ -13,13 +13,16 @@ const Club = () => {
 
     useLayoutEffect(()=>{
         const tl = gsap.timeline()
-        tl.from(".club", {autoAlpha: 0, y: -50, delay: 0.2})
+        tl.to(".courtine",{height: '0', duration: 1, ease:"power2"})
+        .from(".club", {autoAlpha: 0, y: -50, delay: 0.2})
         .from(".club__title", {autoAlpha: 0, y: -50, delay: 0.2},'-=0.2')
 
     
     },[])
 
     return ( 
+        <>
+        <div className="courtine"></div>
         <div className="container">
         <div className="club">
         <div className="club__overlay"></div>
@@ -54,6 +57,7 @@ const Club = () => {
         </div>
         <footer >© autor: Bartłomiej Mazur</footer>
         </div>
+        </>
         );
         
 }

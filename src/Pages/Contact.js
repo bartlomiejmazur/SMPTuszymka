@@ -10,7 +10,8 @@ const Contact = () => {
 
     useLayoutEffect(()=>{
         const tl = gsap.timeline()
-        tl.from(".contact", {autoAlpha: 0, y: -50, delay: 0.2})
+        tl.to(".courtine",{height: '0', duration: 1, ease:"power2"})
+        .from(".contact", {autoAlpha: 0, y: -50, delay: 0.2})
         .from(".contact__title", {autoAlpha: 0, y: -50, delay: 0.2},'-=0.2')
         .from(".contact__info", {autoAlpha: 0, y: -50, delay: 0.2},'-=0.2')
         .from(".contact__info-first", {autoAlpha: 0, y: -50, delay: 0.2},'-=0.2')
@@ -21,6 +22,7 @@ const Contact = () => {
     },[])
     return ( 
         <>
+        <div className="courtine"></div>
         <div className="contact">
         <div className="contact__title">Kontakt</div>
         <div className="contact__overlay"></div>

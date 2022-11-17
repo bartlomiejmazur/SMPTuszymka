@@ -89,7 +89,8 @@ const About = () => {
 
     useLayoutEffect(()=>{
         const tl = gsap.timeline()
-        tl.from(".about__square-banner", {autoAlpha: 0, y: -50, delay: 0.2})
+        tl.to(".courtine",{height: '0', duration: 1, ease:"power2"})
+        .from(".about__square-banner", {autoAlpha: 0, y: -50, delay: 0.2})
         Animation1();
         Animation2();
         Animation3();
@@ -107,7 +108,7 @@ const About = () => {
     return ( 
       
         <>
-       
+       <div className="courtine"></div>
         <div className="about">
             <div className="about__square">
             
