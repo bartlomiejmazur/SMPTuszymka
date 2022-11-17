@@ -13,92 +13,63 @@ import aboutImg from '../Assets/respect.svg'
 import aboutImg2 from '../Assets/motivation.svg'
 import aboutImg3 from '../Assets/fun.svg'
 import { NavLink } from 'react-router-dom';
-gsap.registerPlugin(ScrollTrigger);
 
+gsap.registerPlugin(ScrollTrigger);
 
 
 
 const About = () => {
 
-    const Animation1 = () =>{
-        gsap.from(".about__content .about__content-intro",{
+    
+
+    const jump = (anim) =>{
+        gsap.from(anim,{
             duration: 1,
             autoAlpha: 0,
             y: 100,
             scale: 0.5,
             scrollTrigger:{
-            trigger:(".about__content .about__content-intro") ,
-            
-            
-            }
-            })
-    }
-    const Animation2 = () =>{
-        gsap.from(".fourth__animation",{
-            duration: 1,
-            autoAlpha: 0,
-            y: 100,
-            scale: 0.5,
-            scrollTrigger:{
-            trigger:(".fourth__animation") ,
-            
+            trigger: anim,
             
             }
             })
     }
-    const Animation3 = () =>{
-        gsap.from(".first__animation",{
+ 
+    const rightMove = (anim) =>{
+        gsap.from(anim,{
             duration: 1,
-            // autoAlpha: 0,
             x: -2000,
-            scale: 1,
             scrollTrigger:{
-            trigger:([".first__animation"]) ,
-            start: "top center-=10%",
-            
+            trigger: anim,
+            start: "top center",
+            end: "bottom top"
             }
             })
     }
-    const Animation4 = () =>{
-        gsap.from(".second__animation",{
+    const leftMove = (anim) =>{
+        gsap.from(anim,{
             duration: 1,
-            // autoAlpha: 0,
             x: 2000,
             scale: 1,
             scrollTrigger:{
-            trigger:(".second__animation") ,
-            start: "top center-=10%"
-            
+            trigger: anim,
+            start: "top center",
+            end: "bottom top"
             }
             })
     }
-    const Animation5 = () =>{
-        gsap.from(".third__animation",{
-            duration: 1,
-            // autoAlpha: 0,
-            x: -2000,
-            scale: 1,
-            scrollTrigger:{
-            trigger:([".third__animation"]) ,
-            start: "top center-=10%"
-            
-            }
-            })
-    }
+   
     
 
     useLayoutEffect(()=>{
-        const tl = gsap.timeline()
-        tl.to(".courtine",{height: '0', duration: 1, ease:"power2"})
+        const tl = gsap.timeline({defaults: {ease: "power2"}})
+        tl.to(".courtine",{height: 0, duration: 1})
         .from(".about__square-banner", {autoAlpha: 0, y: -50, delay: 0.2})
-        Animation1();
-        Animation2();
-        Animation3();
-        Animation4();
-        Animation5();
-        
-
-    
+        jump(".about__content-intro")
+        rightMove(".first__animation")
+        leftMove(".second__animation")
+        rightMove(".third__animation")
+        jump(".fourth__animation")
     },[])
 
    
@@ -138,9 +109,7 @@ const About = () => {
                     <p>Obojętnie co się wydarzy, uczmy młode pokolenie szacunku, nawet jeśli piłka nożna okaże się tylko dziecięcą przygodą, to zaszczepiony do innych ludzi szacunek, pozostanie z dzieckiem do końca życia. </p>
                     </div>
                     <div className='about__wrapper-respect__img'><img src={aboutImg} alt="" /></div>
-                </div>
-            
-                
+                </div> 
                 <div className='about__wrapper-respect second__animation'>
                 <div>
                 <h4><span>2.</span>  Motywacja</h4>

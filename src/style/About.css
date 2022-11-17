@@ -1,5 +1,7 @@
 .courtine{
-width: 100%;
+position: fixed;
+left: 0;
+right: 0;
 height: 100vh;
 background-color:#0D0D0D;
 }
