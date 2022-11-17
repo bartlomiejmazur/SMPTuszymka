@@ -25,7 +25,7 @@ const Home = () => {
     return ( 
         <div className="home">
             <div className="overlay"></div>
-                <video autoPlay muted loop playsinline>
+                <video autoPlay muted loop playsInline>
                     <source src={footbalVideo} type="video/mp4"/>
                 </video>
                 <div className="home-content">
