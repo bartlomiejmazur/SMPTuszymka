@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/SMPTuszymka/static/css/main.5f4ed821.css",
-    "main.js": "/SMPTuszymka/static/js/main.1b06a58d.js",
-    "static/media/football-video.mp4": "/SMPTuszymka/static/media/football-video.cad93a61b0ad1d99167f.mp4",
-    "static/media/Tuszymka.png": "/SMPTuszymka/static/media/Tuszymka.074ee1a0a3c6c50be322.png",
-    "static/media/stadion.svg": "/SMPTuszymka/static/media/stadion.e8ddbf50a75235d4a435c39f95cce756.svg",
-    "static/media/stadium_huge.jpg": "/SMPTuszymka/static/media/stadium_huge.ca08ef00dbd11fbaaace.jpg",
-    "static/media/stadium_big.jpg": "/SMPTuszymka/static/media/stadium_big.5aaea7ac4bfb62eb0225.jpg",
-    "static/media/club_big.jpg": "/SMPTuszymka/static/media/club_big.0c6facc76238ce3ac003.jpg",
-    "static/media/contact_medium.jpg": "/SMPTuszymka/static/media/contact_medium.24f8ffa57488fda00ba5.jpg",
-    "static/media/club_medium.jpg": "/SMPTuszymka/static/media/club_medium.d34aa89aef5a85ba9da0.jpg",
-    "static/media/stdium_medium.jpg": "/SMPTuszymka/static/media/stdium_medium.fd82762d24b859d9a10b.jpg",
-    "static/media/stadium_small.jpg": "/SMPTuszymka/static/media/stadium_small.237cc9789bf556fa8857.jpg",
+    "main.css": "/SMPTuszymka/static/css/main.122dd6ea.css",
+    "main.js": "/SMPTuszymka/static/js/main.a97e50f2.js",
+    "static/media/football-video.mp4": "/SMPTuszymka/static/media/football-video.daa5da6e685c2d4d08cc.mp4",
+    "static/media/stadium_huge.jpg": "/SMPTuszymka/static/media/stadium_huge.ded2e6a69f286e77b574.jpg",
+    "static/media/contact_medium.jpg": "/SMPTuszymka/static/media/contact_medium.f55fff89b978408a62a4.jpg",
     "static/media/motivation.svg": "/SMPTuszymka/static/media/motivation.50a616dfeea6c8074007b43852538352.svg",
     "static/media/fun.svg": "/SMPTuszymka/static/media/fun.0aa0f2d4700d318e457eb6857d3b52aa.svg",
-    "static/media/Club.jpg": "/SMPTuszymka/static/media/Club.a6038cf94c578f05186f.jpg",
     "static/media/respect.svg": "/SMPTuszymka/static/media/respect.1d7cfc593ea527d62f0ffbd4547b51bb.svg",
-    "static/media/contact.jpg": "/SMPTuszymka/static/media/contact.e0f4b8892b80dd9b69dd.jpg",
+    "static/media/stadium.jpg": "/SMPTuszymka/static/media/stadium.0a35cd5a0afa62800c6f.jpg",
+    "static/media/stadium_big.jpg": "/SMPTuszymka/static/media/stadium_big.433068393e0aa37c5ff2.jpg",
+    "static/media/club_medium.jpg": "/SMPTuszymka/static/media/club_medium.9a8348aa47f1420f7dd2.jpg",
+    "static/media/club_big.jpg": "/SMPTuszymka/static/media/club_big.99d9cc8d8129edcad23f.jpg",
+    "static/media/Club.jpg": "/SMPTuszymka/static/media/Club.fd7ed88e8a96684cc869.jpg",
+    "static/media/Tuszymka.png": "/SMPTuszymka/static/media/Tuszymka.32924f09184df816688c.png",
+    "static/media/stdium_medium.jpg": "/SMPTuszymka/static/media/stdium_medium.c5694ce1da2c1c7ff75c.jpg",
+    "static/media/stadium_small.jpg": "/SMPTuszymka/static/media/stadium_small.d46e0b3d6a4c7f487770.jpg",
+    "static/media/contact.jpg": "/SMPTuszymka/static/media/contact.8c87bb1f5ad4aabd8e95.jpg",
     "index.html": "/SMPTuszymka/index.html",
-    "main.5f4ed821.css.map": "/SMPTuszymka/static/css/main.5f4ed821.css.map",
-    "main.1b06a58d.js.map": "/SMPTuszymka/static/js/main.1b06a58d.js.map"
+    "main.122dd6ea.css.map": "/SMPTuszymka/static/css/main.122dd6ea.css.map",
+    "main.a97e50f2.js.map": "/SMPTuszymka/static/js/main.a97e50f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f4ed821.css",
-    "static/js/main.1b06a58d.js"
+    "static/css/main.122dd6ea.css",
+    "static/js/main.a97e50f2.js"
   ]
 }
