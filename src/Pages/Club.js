@@ -34,14 +34,14 @@ const Club = () => {
             <div className='container__info-group'>
             <h4>Dzieci</h4>
            <i className="fa-solid fa-star"></i>
-            <p>Dzieci trenujące na obiektach sportowych muszą mieć ukończone 6 lat</p>
+            <p>Dzieci trenujące na obiektach sportowych muszą mieć ukończone 6 lat.</p>
             </div>
             <div className='container__info-group'>
             <h4>Juniorzy</h4>
             <i className="fa-solid fa-star">
             <i className="fa-solid fa-star"></i>
             </i>
-            <p>W skład juniorów młodszych wchodzi młodzież w wieku 13 lat - 17 lat (w zależności od rekrutacji klubu optymalnie 14 lat - 16 lat)</p>
+            <p>W skład juniorów młodszych wchodzi młodzież w wieku 13 lat - 17 lat (w zależności od rekrutacji klubu optymalnie 14 lat - 16 lat).</p>
             </div>
             <div className='container__info-group'>
                 <h4>Seniorzy</h4>
@@ -49,7 +49,7 @@ const Club = () => {
                 <i className="fa-solid fa-star"></i>
                 <i className="fa-solid fa-star"></i>
                 </i>
-                <p>W seniorach zawodnicy obowiązkowo muszą mieć ukończone 16 lat aby zaagrać w ligowym meczu.</p>
+                <p>W seniorach zawodnicy obowiązkowo muszą mieć ukończone 16 lat aby zagrać w ligowym meczu.</p>
             </div>
         </div>
         <footer >© autor: Bartłomiej Mazur</footer>

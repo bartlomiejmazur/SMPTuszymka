@@ -134,7 +134,7 @@ const About = () => {
                 <div className='about__wrapper-respect first__animation'>
                     <div>
                     <h4> <span>1.</span> Szacunek</h4>
-                    <p>Obojętnie co się wydarzy, uczmy młode pokolenie szacunku, nawet jeśli piłka nożna okaże się tylko dziecięcą przygodą, to zaszczepiony do innych ludzi szacunek, pozostanie z naszym dzieckiem do końca życia. </p>
+                    <p>Obojętnie co się wydarzy, uczmy młode pokolenie szacunku, nawet jeśli piłka nożna okaże się tylko dziecięcą przygodą, to zaszczepiony do innych ludzi szacunek, pozostanie z dzieckiem do końca życia. </p>
                     </div>
                     <div className='about__wrapper-respect__img'><img src={aboutImg} alt="" /></div>
                 </div>
@@ -144,13 +144,13 @@ const About = () => {
                 <div>
                 <h4><span>2.</span>  Motywacja</h4>
                     
-                    <p>"Sukces to nie przypadek. To ciężka praca, wytrwałość, nauka, nauka, poświęcenie, a przede wszystkim miłość do tego, co robisz lub czego się uczysz. Musisz szanować ludzi i ciężko pracować, aby pozostać w formie.</p>
+                    <p>"Sukces to nie przypadek. To ciężka praca, wytrwałość, nauka, nauka, poświęcenie, a przede wszystkim miłość do tego, co robisz lub czego się uczysz. Musisz szanować ludzi i ciężko pracować, aby pozostać w formie".</p>
                     </div>
                     <div className='about__wrapper-respect__img'><img src={aboutImg2} alt="" /></div>
                 </div>
                 <div className='about__wrapper-respect third__animation'>
                 <div><h4><span>3.</span> Dobra zabawa</h4>
-                    <p>W tym sporcie zabawa jest najważniejsza. W obecnych czasach dzieci które chcą wychodzić na boisko sportowe, biegać i kopać w piłke są zdrowsze.</p></div>
+                    <p>W tym sporcie zabawa jest najważniejsza. W obecnych czasach dzieci, które chcą wychodzić na boisko sportowe, biegać i kopać w piłke są zdrowsze.</p></div>
                 <div className="about__wrapper-respect__img"><img src={aboutImg3} alt=""/></div>
                 </div>
                 <div className='about__wrapper-respect fourth__animation'>

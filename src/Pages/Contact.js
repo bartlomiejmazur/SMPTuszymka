@@ -36,7 +36,7 @@ const Contact = () => {
      
         <div className='contact__info-second'><i className="fa-solid fa-location-pin"></i>Adres: Tuszyma 482</div>
         
-        <div className='contact__info-third'><i className="fa-solid fa-envelope"></i>Mail: kssmptuszymka@gmail.com</div>
+        <div className='contact__info-third'><i className="fa-solid fa-envelope"></i>Mail: smptuszymka@gmail.com</div>
        
         
         
