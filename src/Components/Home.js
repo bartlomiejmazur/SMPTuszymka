@@ -24,7 +24,7 @@ const Home = () => {
 
     return ( 
         <div className="home">
-            <div className="overlay">
+            <div className="overlay"></div>
                 <video autoPlay muted loop>
                     <source src={footbalVideo} type="video/mp4"/>
                 </video>
@@ -34,7 +34,7 @@ const Home = () => {
                     <img  src={TuszymkaLogo} alt="logo" className='team-logo' />
                     
                 </div>
-            </div>
+            
         </div>
         );
 }

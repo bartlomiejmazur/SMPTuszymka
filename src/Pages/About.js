@@ -4,7 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
 import '../style/About.css'
-import stadium from '../Assets/stadion.svg'
+import stadium from '../Assets/stadium.jpg'
 import stadiumSmall from '../Assets/stadium_small.jpg';
 import stadiumMedium from '../Assets/stdium_medium.jpg';
 import stadiumBig from '../Assets/stadium_big.jpg'
